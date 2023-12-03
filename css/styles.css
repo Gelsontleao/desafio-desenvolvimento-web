@@ -1,0 +1,96 @@
+* {
+  font-family: Helvetica;
+  box-sizing: border-box;
+}
+
+#header {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(16, 8, 90);
+  width: 100%;
+  height: 100px;
+  text-align: center;
+}
+
+.titulo2 {
+  font-size: 30px;
+  color: rgb(93, 93, 107);
+  font-weight: bold;
+}
+
+#conteudo {
+  font-size: 20px;
+  color: rgb(30, 68, 41);
+  width: 100%;
+  height: auto;
+  text-align: justify;
+}
+
+#footer {
+  font-size: 15px;
+  text-align: center;
+}
+
+.figura {
+  font-size: 17px;
+  text-align: center;
+}
+
+.figuras {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30em;
+}
+
+.titulo3 {
+  font-size: 30px;
+  color: rgb(93, 93, 107);
+  font-weight: bold;
+  text-align: center;
+  padding: 1rem;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 500px;
+  margin: 0 auto;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1.1rem;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+#link {
+  font-size: 20px;
+  color: rgb(30, 68, 41);
+  width: 100%;
+  height: auto;
+  text-align: left;
+  word-spacing: 2px;
+  line-height: 40px;
+  font-weight: bold;
+}
